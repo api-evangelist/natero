@@ -1,7 +1,25 @@
 aid: natero
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/natero.png
 name: Natero
-description: Natero is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Natero was a customer-success and predictive-analytics platform (an Andreessen
+  Horowitz portfolio company) that helped SaaS teams reduce churn, monitor account
+  health, and drive expansion using machine learning. It was acquired by Freshworks
+  in 2019 and folded into the Freshsuccess product line. As of this enrichment pass
+  the standalone company is defunct - the natero.com domain no longer resolves to a
+  website, and there is no live developer portal, API reference, or public API
+  surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/natero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,26 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-by-freshworks-2019-domain-not-resolving
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Customer Success
+- Predictive Analytics
+- SaaS
+- Machine Learning
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
