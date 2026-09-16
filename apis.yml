@@ -39,7 +39,7 @@ x-status: defunct
 x-status-reason: acquired-by-freshworks-2019-domain-not-resolving
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Customer Success
@@ -47,6 +47,7 @@ tags:
 - Software-as-a-Service
 - Machine-Learning
 - Acquired
+- Defunct
 tags_raw:
 - Company
 - Customer Success
@@ -54,6 +55,7 @@ tags_raw:
 - SaaS
 - Machine Learning
 - Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
